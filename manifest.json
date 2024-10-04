@@ -1,0 +1,15 @@
+{
+    "name": "t_Selflight",
+    "short_name": "Selflight",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "description": "Selflight GCS System - Detect the Future.",
+    "start_url": "/index.html",
+    "icons": [
+        {
+            "src": "/img/Selflight.png",
+            "sizes": "192x192",
+            "type": "img/png"
+        }
+    ]
+}
