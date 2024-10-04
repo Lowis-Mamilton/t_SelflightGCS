@@ -4,7 +4,7 @@
     "display": "standalone",
     "background_color": "#ffffff",
     "description": "Selflight GCS System - Detect the Future.",
-    "start_url": "/index.html",
+    "start_url": "index.html",
     "icons": [
         {
             "src": "/img/Selflight.png",
