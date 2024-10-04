@@ -7,7 +7,7 @@
     "start_url": "index.html",
     "icons": [
         {
-            "src": "/img/Selflight.png",
+            "src": "img/quad-icon.png",
             "sizes": "192x192",
             "type": "img/png"
         }
