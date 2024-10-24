@@ -3,38 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Selflight GCS System - Detect the Future.">
-    <title>t_Selflight</title>
-    <link rel="stylesheet" href="CSS/styles.css" />
-    <link rel="icon" href="img/quad-icon.ico" type="/image/x-icon/" />
+    <meta name="description" content="Selflight GCS - Detect the Future.">
+    <title>Selflight</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/quad-icon.ico" type="image/x-icon">
     <link rel="manifest" href="manifest.json">
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <script src="JS/script.js" defer></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <!--State Bar-->
-    <div class="state-bar">
-        <div class="menu"><img class="menu-icon" src="img/menu.png" /></div>
-        <nav class="navbar">
-          <img id="GPS-icon" class="state-icon" src="img/GPS.png" />
-          <img id="cam-icon" class="state-icon" src="img/videocam-on.png" />
-          <img id="sig-icon" class="state-icon" src="img/signal_full.png" />
-          <img id="bat-icon" class="state-icon" src="img/battery_full.png" />
-        </nav>
-      </div>
-  
-      <!--Mission list-->
-      <div class="mission-list">
-        <a class="mission-title"><img src="img/mission.png" />MISSION</a>
-        <div class="diving-line"></div>
-        <ul class="mission-name" id="mission-list">
-        </ul>
-        <div class="add-button">
-          <button id="add-mission-button" class="add-mission-button">Add</button>
+    <!-- state Bar -->
+    <div class="statebar">
+        <img src="img/person.png">
+        <p class="username">User Name</p>
+        <div class="portsetting">
+            <select>
+                <option>COM1</option>
+                <option>COM2</option>
+            </select>
+            <select>
+                <option>9600</option>
+                <option>57600</option>
+                <option>115200</option>
+            </select>
         </div>
-      </div>
+        <button class="connectbutton"><img src="img/no-Connect.png"></button>
+    </div>
+
+    <!-- Mission List -->
+    <div class="missionlist-container">
+        <h2>Missions</h2>
+        <div class="missionline"></div>
+        <!-- Mission Item here -->
+        <ul class="missions">
+            <div class="mission-item">
+                
+            </div>
+        </ul>
+    </div>
+
+    <!-- Add Button -->
+    <div class="divingline"></div>
+    <button class="addbutton" onclick="window.location.href='Pages/mission-setting.html'"><img src="img/Add.png"></button>
+    <!-- Drone Status -->
+
+    <!-- Link Button -->
+
+
 </body>
 </html>
